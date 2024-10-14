@@ -14,7 +14,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 const __dirname = path.resolve();
 
-app.use(cors({ origin: "auth-project1-ip57.vercel.app", credentials: true }));
+app.use(cors({ origin: "https://auth-project1-ip57-8xpcdta2h-pastuchenko73s-projects.vercel.app", credentials: true }));
 
 app.use(express.json()); // allows us to parse incoming requests:req.body
 app.use(cookieParser()); // allows us to parse incoming cookies
